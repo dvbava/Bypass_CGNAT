@@ -98,8 +98,8 @@ get_ips () {
   if [ $2 ]; then
     WGPORT=$2
   else
-    read -p $'\e[36mWireguard Port \e[0m[\e[32m55108\e[0m]: ' WGPORT
-    WGPORT=${WGPORT:-55108}
+    read -p $'\e[36mWireguard Port \e[0m[\e[32m55255\e[0m]: ' WGPORT
+    WGPORT=${WGPORT:-55255}
   fi
 
   for i in "PUBLIC_IP" "WG_SERVER_IP" "WG_CLIENT_IP"
