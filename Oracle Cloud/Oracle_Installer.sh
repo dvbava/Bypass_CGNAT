@@ -458,7 +458,7 @@ else
   SERVERTYPE=1
   echo ""
   echo -e "Make sure you have followed the Opening Up Ports section found on:"
-  echo -e "${LBU}https://github.com/mochman/Bypass_CGNAT/wiki/Oracle-Cloud--(Opening-Up-Ports)${NC}"
+  echo -e "${LBU}https://github.com/dvbava/Bypass_CGNAT/wiki/Oracle-Cloud--(Opening-Up-Ports)${NC}"
   echo ""
   echo "Please have a terminal window running on both your VPS and your Local Server"
   echo "since this script will ask you to input information into/from each other."
